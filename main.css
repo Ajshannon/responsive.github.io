@@ -1,6 +1,7 @@
 body {
   display: flex;
-  max-width: 1200px;
+  max-width: 1000vw;
+  margin: auto;
 }
 
 /* .container {
@@ -82,10 +83,13 @@ main {
     display: inline-flex;
     top: 0 !important;
     top: initial;
+    
   }
-  header h1, p{
+  body {
+    flex-flow: row wrap;
+  }
 
-  }
+  
 }
 
 @media (max-width: 400px) {
